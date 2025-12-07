@@ -1,0 +1,21 @@
+{
+  "name": "tutorial-clean-architecture",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "encapsulation": "tsx watch --clear-screen=false src/encapsulation",
+    "inheritance": "tsx watch --clear-screen=false src/inheritance",
+    "srp": "tsx watch --clear-screen=false src/SOLID/SRP"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
