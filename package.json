@@ -7,7 +7,8 @@
     "build": "tsc",
     "encapsulation": "tsx watch --clear-screen=false src/encapsulation",
     "inheritance": "tsx watch --clear-screen=false src/inheritance",
-    "srp": "tsx watch --clear-screen=false src/SOLID/SRP"
+    "srp": "tsx watch --clear-screen=false src/SOLID/SRP",
+    "ocp": "tsx watch --clear-screen=false src/SOLID/OCP"
   },
   "keywords": [],
   "author": "",
